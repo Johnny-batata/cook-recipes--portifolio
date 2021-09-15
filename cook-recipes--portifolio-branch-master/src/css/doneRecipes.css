@@ -1,0 +1,137 @@
+.done-recipes-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter , sans-serif;
+  justify-content: center;
+  margin-bottom: 32px;
+  margin-top: 80px;
+}
+
+.list-btn {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+}
+
+.filter-btn {
+  background-color: var(--crl-Primary);
+  border: none;
+  border-radius: 25px;
+  color: var(--crl-White);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 2.2rem;
+  margin: 0.3rem;
+  outline: none;
+  width: 5rem;
+}
+
+.cards-content {
+  margin-top: 1rem;
+}
+
+.done-card {
+  align-items: center;
+  background-color: var(--crl-Tertiary);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px 0 rgba(11, 44, 102, 0.12);
+  display: flex;
+  height: 18rem;
+  justify-content: center;
+  margin: 0.3rem;
+  width: 10.1rem;
+}
+
+.image-content {
+  position: relative;
+}
+
+.group-26 svg {
+  height: 6.63rem;
+  width: 6.75rem;
+}
+
+.done-shadow {
+  filter: drop-shadow(0 24px 24px rgba(181, 56, 51, 0.7));
+  left: 30px;
+  position: absolute;
+  top: 50px;
+}
+
+.done-card-img {
+  clip-path: circle(50%);
+  height: 5rem;
+  width: 5rem;
+}
+
+.done-card-body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.done-card-subtitle {
+  color: var(--crl-Secondary-Text);
+  font-size: var(--font-size-s);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.done-card-title {
+  color: var(--crl-Main-Text);
+  font-size: var(--font-size-p2);
+  font-weight: 700;
+  text-align: center;
+}
+
+.done-btn-share {
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid var(--crl-Outline);
+  border-radius: 50%;
+  height: 2rem;
+  left: 20px;
+  outline: none;
+  position: absolute;
+  top: 20px;
+  width: 2rem;
+}
+
+.done-date {
+  color: var(--crl-Secondary-Text);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.tag-content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.done-tag {
+  align-items: center;
+  color: var(--crl-Main-Text);
+  display: flex;
+  font-size: var(--font-size-p2);
+  font-weight: 500;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.date-content {
+  margin-top: 0.5rem;
+}

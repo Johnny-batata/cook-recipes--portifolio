@@ -1,0 +1,14 @@
+.page-progress {
+  align-items: center;
+  color: var(--crl-Main-Text);
+  display: flex;
+  flex-direction: column;
+}
+
+.riscado {
+  text-decoration: line-through;
+}
+
+.disabled {
+  background-color: #e3fff8;
+}

@@ -1,0 +1,10 @@
+.drink-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter , sans-serif;
+  justify-content: center;
+  margin-bottom: 182px;
+  position: relative;
+  top: 80px;
+}

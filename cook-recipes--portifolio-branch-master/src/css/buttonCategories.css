@@ -1,0 +1,21 @@
+.btn-list-cards {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 90vw;
+}
+
+.category-filter {
+  background-color: var(--crl-Primary);
+  border: none;
+  border-radius: 25px;
+  color: var(--crl-White);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 2.2rem;
+  margin: 0.3rem;
+  outline: none;
+  width: 7rem;
+}

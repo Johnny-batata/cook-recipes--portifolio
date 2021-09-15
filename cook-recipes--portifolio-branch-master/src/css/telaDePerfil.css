@@ -1,0 +1,107 @@
+.profile-screen-btn {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+}
+
+.profile-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.email {
+  border-radius: 32px;
+  color: var(--crl-Main-Text);
+  font-family: Inter , sans-serif;
+  font-size: var(--font-size-p1);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  width: 327px;
+}
+
+.buttons-perfil {
+  background: var(--crl-Primary);
+  border: none;
+  border-radius: 32px;
+  color: white;
+  font-size: var(--font-size-p2);
+  font-weight: 700;
+  height: 56px;
+  letter-spacing: 0.007em;
+  line-height: 18px;
+  margin: 0.5rem;
+  outline: none;
+  padding: 19px 32px;
+  top: 15px;
+  width: 327px;
+}
+
+.profile-img {
+  top: 270px;
+  width: 170px;
+}
+
+.perfil-avatar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+}
+
+@media only screen and ( min-width : 600px ) and ( orientation : landscape ) {
+
+  .profile-main {
+    flex-direction: row;
+    margin: 1rem;
+  }
+
+  .buttons-perfil {
+    margin: 0.2rem;
+  }
+
+  .perfil-avatar {
+    margin-left: 1rem;
+  }
+}
+
+/* TABLE SCREEN */
+
+@media only screen and ( min-width : 767px ) {
+
+  .profile-main {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .perfil-btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .buttons-perfil {
+    margin: 0.2rem;
+  }
+
+}
+
+/* TABLET SCREEN IN LANDSCAPE POSITION */
+
+@media only screen and ( min-width : 1023px ) and ( orientation : landscape ) {
+
+  .profile-main {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}

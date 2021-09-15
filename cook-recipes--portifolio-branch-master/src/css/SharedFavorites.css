@@ -1,0 +1,39 @@
+.sec-share-fav {
+  position: relative;
+}
+
+.details-btn {
+  background-color: var(--crl-form);
+  border: 1px solid var(--crl-Outline);
+  border-radius: 50%;
+  height: 2rem;
+  outline: none;
+  width: 2rem;
+}
+
+.btn-share {
+  margin-right: 0.5rem;
+}
+
+.img-share {
+  filter: invert(32%)
+    sepia(11%) saturate(2567%) hue-rotate(182deg) brightness(87%) contrast(82%);
+  width: 1.12rem;
+}
+
+.img-favorite {
+  filter: invert(32%)
+    sepia(11%) saturate(2567%) hue-rotate(182deg) brightness(87%) contrast(82%);
+  width: 1.12rem;
+}
+
+.btn-active {
+  background-color: var(--crl-Primary);
+  border: 1px solid hsl(151, 74%, 40%);
+}
+
+.img-favorite-active {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(160deg)
+    brightness(103%) contrast(101%) opacity(0.6);
+  width: 1.12rem;
+}

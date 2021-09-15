@@ -1,0 +1,67 @@
+.loader-container {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  top: 80px;
+  width: 100%;
+}
+
+.loading-text {
+  align-items: center;
+  color: var(--crl-Secondary);
+  display: flex;
+  font-family: Damion , cursive;
+  font-weight: 700;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h1 span {
+  animation: animate 2s linear infinite;
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+}
+
+h1 span:nth-child( 1 ) {
+  animation-delay: 0s;
+}
+
+h1 span:nth-child( 2 ) {
+  animation-delay: 0.25s;
+}
+
+h1 span:nth-child( 3 ) {
+  animation-delay: 0.5s;
+}
+
+h1 span:nth-child( 4 ) {
+  animation-delay: 0.75s;
+}
+
+h1 span:nth-child( 5 ) {
+  animation-delay: 1s;
+}
+
+h1 span:nth-child( 6 ) {
+  animation-delay: 1.25s;
+}
+
+@keyframes animate {
+
+  0%, 100% {
+    transform: scale(1.2);
+  }
+
+  5%, 95% {
+    transform: scale(1);
+  }
+}
