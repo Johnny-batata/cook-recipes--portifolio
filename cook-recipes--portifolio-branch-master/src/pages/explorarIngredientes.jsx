@@ -57,7 +57,6 @@ class explorarIngredientes extends Component {
 
   render() {
     const { getApiIngredient, location } = this.props;
-    console.log(getApiIngredient);
     return (
       <div>
         <Header location={ location } />
