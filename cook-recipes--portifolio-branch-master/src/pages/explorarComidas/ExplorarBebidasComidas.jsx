@@ -66,9 +66,6 @@ export class ExplorarComidasBebidas extends Component {
     const { getDetailsRecipe } = this.props;
 
     if (getDetailsRecipe.idMeal === id && param === 'comidas') {
-      console.log('entrei no redirect');
-      console.log(id);
-      console.log(getDetailsRecipe.idMeal);
       return this.setState({ isRedirect: true });
     }
     if (getDetailsRecipe.idDrink === id && param === 'bebidas') {
