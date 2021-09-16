@@ -20,7 +20,6 @@ class explorarIngredientes extends Component {
       console.log('sou comida');
       return fetchApi('meal');
     }
-    console.log('sou bebida');
     return fetchApi('cocktail');
   }
 
