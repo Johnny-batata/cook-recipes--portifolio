@@ -8,7 +8,6 @@ import {
 } from '../action';
 
 const INITIAL_STATE = {
-  // details: [],
   foodDatails: {},
   drinkDatails: {},
   details: {},
